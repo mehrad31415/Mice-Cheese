@@ -16,3 +16,6 @@ sure of how things work by keeping track of the number of boxes that are opened.
 increments a shared counter by 1. In the first instance, the shared counter is unsynchronised while making the timing measurements. 
 After conducting the first three experiments, we protect the shared counter making use of a semaphore. We then re- run the experiment
 for the 4 and 8 mice condition.
+
+Further work on this project can be to create a display of the board (GUI) with the location of each Mice (thread) shown on the board.
+So that the user can have a better interpretation of what is going on through the concurrent process. 
